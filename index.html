@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Responsive Portfolio Website</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="js/custom.js"></script>
+		<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+		<script src="js/typed.min.js"></script>
+		
+	</head>
+	<body>
+
+		<header>
+			<nav> 
+				<div class='logo'>PORTFO<span>LIO</span></div>
+
+				<div class="menu">
+					<a href="#"> Home</a>
+					<a href="#"> About</a>
+					<a href="#"> Skills</a>
+					<a href="#"> Services</a>
+					<a href="#"> Contacts</a>
+					</div>
+			</nav>
+
+			<div class="text">
+				<p>Hello, I am </p>
+				<p>Puspa Shakya</p>
+				<p>And I am a <span id="ani" style="color: #e74c3c;"></span></p>
+				<button class="c-btn">Hire me</button>
+			</div>
+
+			
+			
+			</header>
+			<section id="about">
+				<div class="section-info">
+					<h1>About</h1>
+					<p>Who am I?</p>
+				</div>
+
+				<div class="about-row">
+					<div class="about-left-col">
+						<img src="images/about.jpg">
+					</div>
+					<div class="about-right-col">
+						<p id="p-title">
+							Hello, I'm Puspa and I am <span id="ani2" style="color: #e74c3c;">
+
+						</p>
+						<p>
+							I am intreseted in sceiene and technology and I am strongly passonate in IT.
+
+
+							</p>
+							<button class="c-btn">Download CV</button>
+
+					</div>
+				</div>
+			</section>
+			<section id="skills">
+				<div class="section-info">
+					<h1 style="color: white;">Skills</h1>
+					<p>Who am I?</p>
+				</div>
+				<div class="Skills-row">
+					<div class="skills-left-col">
+						<p>
+							IOT is the study of internet of things where we wil be talking with machine. As we speak to our mom "mon! i forget to turn off the swith can you do it pleas". Or the vice versa son buy me a salt returning home.
+						</p>
+						<button class="c-btn">Read More</button>
+					</div>
+					<div class="skills-right-col"></div>
+					<div class="progress-div">
+						<p>
+						<span>HTML</span><br>
+						<progress value="80" max="100"></progress>
+						<span>80%</span>
+						</p>
+
+						<p>
+							<span>CSS</span><br>
+							<progress value="80" max="100"></progress>
+							<span>80%</span>
+							</p>
+
+							<p>
+								<span>HTML</span><br>
+								<progress value="80" max="100"></progress>
+								<span>80%</span>
+								</p>
+
+								<p>
+									<span>HTML</span><br>
+									<progress value="80" max="100"></progress>
+									<span>80%</span>
+									</p>
+
+									<p>
+										<span>HTML</span><br>
+										<progress value="80" max="100"></progress>
+										<span>80%</span>
+										</p>
+
+
+					</div>
+					
+
+				</div>
+
+			</section>
+
+			<section id="services">
+				<div class="section-info">
+					<h1>Services</h1>
+					<p>What we Provide</p>
+				</div>
+
+				<div class="services-row">
+					<div class="services-box" data-tilt>
+						<img src="images/b2.png">
+						<h2>Web Design</h2>
+						<p>
+							Android Developer are those people who are makeing application for the android 
+						</p>
+					</div>
+					<div class="services-box" data-tilt>
+						<img src="images/b2.png">
+						<h2>Web Development</h2>
+						<p>
+							Android Developer are those people who are makeing application for the android 
+						</p>
+					</div>
+					<div class="services-box" data-tilt>
+						<img src="images/b2.png">
+						<h2>Apps Development</h2>
+						<p>
+							Android Developer are those people who are makeing application for the android 
+						</p>
+					</div>
+					
+				</div>
+
+				<section id="contacts">
+					<div class="section-info" style="color: blue">
+						<h1>Get in Touch</h1>
+						<p style="color: black;">We are avaliable</p>
+					</div>
+
+					<div class="contacts -row">
+						<div class="contact-left-col"></div>
+						<img src="images/b3.png">
+						<div class="contact-right-col">
+							<form>
+								<h2>Connect with us</h2>
+								<input type="text" name="" placeholder="Name">
+								<input type="email" name=""placeholder="E-mail">
+								<br>
+								<textarea cols="40" rows="10" placeholder="Message"></textarea>
+								<br>
+								<button class="c-btn"> Submit</button>
+							</form>
+							
+						</div>
+						
+					</div>
+				</section>
+				<section id="footer"> 
+					<h2>Developed by <br> Puspa Shakya</h2>
+					<img src="images/icon.png" width="100">
+				</section>
+
+				<script scr="js/jquery.ripples-min.js"></script>
+				<script>
+					jQuery(document).ready(function(){
+						$('header').ripples({
+  dropRadius: 20,
+  perturbance: 0.03,
+
+});
+	});
+				</script>
+
+				<script> 
+				let animate= new Typed('#ani', {
+					strings:["Front End Developer", "Blogger", "Programmer"],
+					typeSpeed:100,
+					backSpeed:100,
+					loop:true,
+				})
+				</script>
+
+			</script>
+
+<script> 
+let animat= new Typed('#ani2', {
+	strings:["Front End Developer", "Blogger", "Programmer"],
+	typeSpeed:100,
+	backSpeed:100,
+	loop:true,
+})
+</script>
+
+<script src="js/tilt.jquery.min.js"></script>
+
+			</body>
+</html>
